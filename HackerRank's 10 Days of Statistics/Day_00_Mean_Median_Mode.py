@@ -13,7 +13,7 @@ for num in numbers:
     # I'm afraid of big numbers, so I divide each number for N before calculating.
     tong += num/N
 print(round(tong, 1))
-
+ 
 numbers.sort()
 # Median
 if N % 2 == 0:
