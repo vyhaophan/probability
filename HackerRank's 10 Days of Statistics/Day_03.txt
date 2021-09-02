@@ -1,0 +1,32 @@
+1. CONDITIONAL PROBABILITY
+
+Suppose a family has 2 children, one of which is a boy. 
+What is the probability that both children are boys?
+
+Solution:
+There are 3 possible cases: { (boy,boy), (boy, girl), (girl, boy) }
+If both children are boys => P = 1/3
+
+2. Cards of the Same Suit
+
+You draw 2 cards from a standard 52-card deck without replacing them. 
+What is the probability that both cards are of the same suit?
+
+SOlution:
+There are 13 suits in a deck.
+After drawing a card, there left 12 other cards which are of the same suit of the 1st card.
+=> Prob. of the 1st card = 52
+Prob. of the 2nd card = 12
+
+If you just draw randomly 2 cards from a deck => prob. = 52*51
+
+=> result = 52*12/(52*51) = 12/51
+
+3. Drawing Marbles
+
+A bag contains 3 red marbles and 4 blue marbles. Then, 2 marbles are drawn from the bag, at random, without replacement. 
+If the first marble drawn is red, what is the probability that the second marble is blue?
+
+Solution:
+After the 1st red marbles, we are left with 6 marbles in which 4 of them are blue.
+=> 4/6 = 2/3
